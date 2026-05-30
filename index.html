@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe ⛺</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main id="main">
+      <div class="main-container">
+        <h1 class="title">Tic Tac Toe</h1>
+
+        <div class="resualt-section">
+          <div class="div-one">
+            <h3>Player</h3>
+            <span class="resualt-text" id="player-score">0</span>
+          </div>
+          <div class="div-two">
+            <h3>Draws</h3>
+            <span class="resualt-text" id="draw-score">0</span>
+          </div>
+          <div class="div-three">
+            <h3>Robot</h3>
+            <span class="resualt-text" id="robot-score">0</span>
+          </div>
+        </div>
+
+        <section class="sections-play">
+          <table id="table">
+            <tbody>
+              <tr>
+                <td class="cell" id="cell-0"></td>
+                <td class="cell" id="cell-1"></td>
+                <td class="cell" id="cell-2"></td>
+              </tr>
+              <tr>
+                <td class="cell" id="cell-3"></td>
+                <td class="cell" id="cell-4"></td>
+                <td class="cell" id="cell-5"></td>
+              </tr>
+              <tr>
+                <td class="cell" id="cell-6"></td>
+                <td class="cell" id="cell-7"></td>
+                <td class="cell" id="cell-8"></td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <div class="game-info">
+          <p id="game-status">Player's Turn (X)</p>
+        </div>
+
+        <button class="reset-btn">Restart Game 🚩</button>
+      </div>
+    </main>
+
+    <!-- Script -->
+    <script src="./script.js"></script>
+  </body>
+</html>
